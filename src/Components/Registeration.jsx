@@ -18,7 +18,7 @@ function Registration() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [phone, setPhone] = useState("");
-  const[isError,setIsError]=useState(false);
+  // const[isError,setIsError]=useState(false);
 
   const [value, setValue] = useState();
 

@@ -12,7 +12,7 @@ import { FaInfoCircle } from "react-icons/fa";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { NavLink } from "react-router-dom";
 import { Avatar } from "@mui/material";
-import { faAlignLeft } from "@fortawesome/free-solid-svg-icons";
+// import { faAlignLeft } from "@fortawesome/free-solid-svg-icons";
 
 
 const Navbar = () => {
@@ -21,7 +21,9 @@ const Navbar = () => {
   
   return (
     <>
-       <div><h1 style={avtarStyle}>FunctionUp🧑‍🎓</h1></div>
+       <div>
+        <NavLink to='/'><h1 style={avtarStyle}>FunctionUp🧑‍🎓</h1></NavLink>
+        </div>
       <nav className="main-nav">
        <div
           className={
